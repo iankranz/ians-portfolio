@@ -1,4 +1,5 @@
-body {  font-family: "Archivo", Arial, Helvetica, sans-serif;
+body {
+  font-family: "Archivo", Arial, Helvetica, sans-serif;
   color: #050505;
   padding: 0rem;
   margin: 0rem;
@@ -119,7 +120,22 @@ main #feature-card p {
   line-height: 1.75rem;
 }
 
-/** Main content*/
+main p {
+  line-height: 1.5rem;
+  margin-bottom: 0.25rem;
+}
+
+@media screen and (min-width: 768px) {
+  main p {
+    width: 30rem;
+  }
+}
+
+main a {
+  text-decoration: underline;
+}
+
+/** Footer*/
 
 footer {
   background-color: #050505;
