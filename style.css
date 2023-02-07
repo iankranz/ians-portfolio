@@ -40,7 +40,7 @@ nav > *:nth-child(1) {
 }
 
 .nav-option-list {
-  width: 100%;
+  width: 20rem;
   padding: 0rem;
   margin: 1rem 0rem 0rem 0rem;
   display: flex;
